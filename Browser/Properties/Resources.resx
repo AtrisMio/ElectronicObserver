@@ -141,6 +141,9 @@
   <data name="Dialog_Refresh" xml:space="preserve">
     <value>再読み込みします。\r\nよろしいですか？</value>
   </data>
+  <data name="ErrorMessageNotFound" xml:space="preserve">
+    <value>指定したプロセスIDの音量オブジェクトは存在しません。</value>
+  </data>
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これが読み込まれていないため、スクリーンショットを撮ることはできません。</value>
   </data>

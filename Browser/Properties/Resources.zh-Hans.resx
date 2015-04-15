@@ -141,6 +141,9 @@
   <data name="Dialog_Refresh" xml:space="preserve">
     <value>将要刷新页面。\r\n确认刷新吗？</value>
   </data>
+  <data name="ErrorMessageNotFound" xml:space="preserve">
+    <value>未找到指定PID的音量对象。</value>
+  </data>
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これ并未被装载，所以您无法使用截图功能。</value>
   </data>

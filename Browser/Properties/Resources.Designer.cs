@@ -133,6 +133,15 @@ namespace Browser.Properties {
         }
         
         /// <summary>
+        ///   查找类似 指定したプロセスIDの音量オブジェクトは存在しません。 的本地化字符串。
+        /// </summary>
+        internal static string ErrorMessageNotFound {
+            get {
+                return ResourceManager.GetString("ErrorMessageNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 艦これが読み込まれていないため、スクリーンショットを撮ることはできません。 的本地化字符串。
         /// </summary>
         internal static string KanColle_NotLoaded {
