@@ -324,6 +324,156 @@
   <data name="FleetData_9" xml:space="preserve">
     <value>停泊修理中</value>
   </data>
+  <data name="FormMain_1" xml:space="preserve">
+    <value> 已启动…</value>
+  </data>
+  <data name="FormMain_10" xml:space="preserve">
+    <value>正在恢复窗口布局。</value>
+  </data>
+  <data name="FormMain_11" xml:space="preserve">
+    <value>窗口布局文件不存在。</value>
+  </data>
+  <data name="FormMain_12" xml:space="preserve">
+    <value>布局已经初始化完成。\r\n请从「显示」菜单中添加自己喜欢的窗口。</value>
+  </data>
+  <data name="FormMain_13" xml:space="preserve">
+    <value>窗口布局文件不存在</value>
+  </data>
+  <data name="FormMain_14" xml:space="preserve">
+    <value>恢复窗口布局失败。</value>
+  </data>
+  <data name="FormMain_15" xml:space="preserve">
+    <value>正在恢复窗口布局。</value>
+  </data>
+  <data name="FormMain_16" xml:space="preserve">
+    <value>保存窗口布局失败。</value>
+  </data>
+  <data name="FormMain_17" xml:space="preserve">
+    <value>记录不保存的话会丢失。\r\n你确认加载？</value>
+  </data>
+  <data name="FormMain_18" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="FormMain_19" xml:space="preserve">
+    <value>加载API列表</value>
+  </data>
+  <data name="FormMain_2" xml:space="preserve">
+    <value> API读取失败。</value>
+  </data>
+  <data name="FormMain_20" xml:space="preserve">
+    <value>无法读取API列表。\r\n</value>
+  </data>
+  <data name="FormMain_21" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FormMain_22" xml:space="preserve">
+    <value>请提前读入正常的 api_start2。</value>
+  </data>
+  <data name="FormMain_23" xml:space="preserve">
+    <value>给您造成不便还请谅解</value>
+  </data>
+  <data name="FormMain_24" xml:space="preserve">
+    <value>从旧 api_start2 建立记录</value>
+  </data>
+  <data name="FormMain_25" xml:space="preserve">
+    <value>舰船数据加载失败。</value>
+  </data>
+  <data name="FormMain_26" xml:space="preserve">
+    <value>装备数据加载失败。</value>
+  </data>
+  <data name="FormMain_27" xml:space="preserve">
+    <value>将要删除旧的API数据。\r\n真的要这么做？</value>
+  </data>
+  <data name="FormMain_28" xml:space="preserve">
+    <value>已经删除。\r\n</value>
+  </data>
+  <data name="FormMain_29" xml:space="preserve">
+    <value> 个文件已经删除。</value>
+  </data>
+  <data name="FormMain_3" xml:space="preserve">
+    <value> 启动处理已完成。</value>
+  </data>
+  <data name="FormMain_30" xml:space="preserve">
+    <value>删除成功</value>
+  </data>
+  <data name="FormMain_31" xml:space="preserve">
+    <value>删除失败。\r\n</value>
+  </data>
+  <data name="FormMain_32" xml:space="preserve">
+    <value>舰船数据加载失败。</value>
+  </data>
+  <data name="FormMain_33" xml:space="preserve">
+    <value>从通信中保存的舰船资源名的文件及文件夹、将替换成舰船名。\r\n</value>
+  </data>
+  <data name="FormMain_34" xml:space="preserve">
+    <value>对象是指定目录下的所有文件及子文件夹。\r\n</value>
+  </data>
+  <data name="FormMain_35" xml:space="preserve">
+    <value>确认要继续？</value>
+  </data>
+  <data name="FormMain_36" xml:space="preserve">
+    <value>重命名该船的资源文件名</value>
+  </data>
+  <data name="FormMain_37" xml:space="preserve">
+    <value>已完成重命名。\r\n{0} 个资源文件被修改。</value>
+  </data>
+  <data name="FormMain_38" xml:space="preserve">
+    <value>处理完成</value>
+  </data>
+  <data name="FormMain_39" xml:space="preserve">
+    <value>舰船资源文件重命名失败。</value>
+  </data>
+  <data name="FormMain_4" xml:space="preserve">
+    <value>就要退出了，来正面上我啊？</value>
+  </data>
+  <data name="FormMain_40" xml:space="preserve">
+    <value>舰船资源文件重命名失败。\r\n</value>
+  </data>
+  <data name="FormMain_41" xml:space="preserve">
+    <value>将要打开外部浏览器查看在线帮助。\r\n确认继续吗？</value>
+  </data>
+  <data name="FormMain_42" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="FormMain_43" xml:space="preserve">
+    <value>打开布局文件</value>
+  </data>
+  <data name="FormMain_44" xml:space="preserve">
+    <value>将要跳转到登陆界面。\r\n确认继续吗？</value>
+  </data>
+  <data name="FormMain_45" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="FormMain_46" xml:space="preserve">
+    <value>请输入目的地址</value>
+  </data>
+  <data name="FormMain_47" xml:space="preserve">
+    <value>请输入目的URL。</value>
+  </data>
+  <data name="FormMain_48" xml:space="preserve">
+    <value>当前: {0}%</value>
+  </data>
+  <data name="FormMain_49" xml:space="preserve">
+    <value>API读取失败。\r\n</value>
+  </data>
+  <data name="FormMain_5" xml:space="preserve">
+    <value>上上上！不上还是人！？</value>
+  </data>
+  <data name="FormMain_50" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="FormMain_6" xml:space="preserve">
+    <value> 已经退出了…</value>
+  </data>
+  <data name="FormMain_7" xml:space="preserve">
+    <value> 已经处理完成。</value>
+  </data>
+  <data name="FormMain_8" xml:space="preserve">
+    <value>恢复窗口布局失败。</value>
+  </data>
+  <data name="FormMain_9" xml:space="preserve">
+    <value>保存窗口布局失败。</value>
+  </data>
   <data name="SoftwareInformation_1" xml:space="preserve">
     <value>七四式电子观测仪</value>
   </data>

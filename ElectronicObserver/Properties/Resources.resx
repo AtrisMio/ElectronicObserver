@@ -324,6 +324,156 @@
   <data name="FleetData_9" xml:space="preserve">
     <value>泊地修理中</value>
   </data>
+  <data name="FormMain_1" xml:space="preserve">
+    <value> を起動しています…</value>
+  </data>
+  <data name="FormMain_10" xml:space="preserve">
+    <value>ウィンドウ レイアウトを復元しました。</value>
+  </data>
+  <data name="FormMain_11" xml:space="preserve">
+    <value>ウィンドウ レイアウト ファイルは存在しません。</value>
+  </data>
+  <data name="FormMain_12" xml:space="preserve">
+    <value>レイアウトが初期化されました。\r\n「表示」メニューからお好みのウィンドウを追加してください。</value>
+  </data>
+  <data name="FormMain_13" xml:space="preserve">
+    <value>ウィンドウ レイアウト ファイルが存在しません</value>
+  </data>
+  <data name="FormMain_14" xml:space="preserve">
+    <value>ウィンドウ レイアウトの復元に失敗しました。</value>
+  </data>
+  <data name="FormMain_15" xml:space="preserve">
+    <value>ウィンドウ レイアウトを保存しました。</value>
+  </data>
+  <data name="FormMain_16" xml:space="preserve">
+    <value>ウィンドウ レイアウトの保存に失敗しました。</value>
+  </data>
+  <data name="FormMain_17" xml:space="preserve">
+    <value>セーブしていないレコードが失われる可能性があります。\r\nロードしますか？</value>
+  </data>
+  <data name="FormMain_18" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="FormMain_19" xml:space="preserve">
+    <value>APIリストをロード</value>
+  </data>
+  <data name="FormMain_2" xml:space="preserve">
+    <value> API読み込みに失敗しました。</value>
+  </data>
+  <data name="FormMain_20" xml:space="preserve">
+    <value>API読み込みに失敗しました。\r\n</value>
+  </data>
+  <data name="FormMain_21" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="FormMain_22" xml:space="preserve">
+    <value>先に通常の api_start2 を読み込んでください。</value>
+  </data>
+  <data name="FormMain_23" xml:space="preserve">
+    <value>大変ご迷惑をおかけしております</value>
+  </data>
+  <data name="FormMain_24" xml:space="preserve">
+    <value>旧 api_start2 からレコードを構築</value>
+  </data>
+  <data name="FormMain_25" xml:space="preserve">
+    <value>艦船データが読み込まれていません。</value>
+  </data>
+  <data name="FormMain_26" xml:space="preserve">
+    <value>装備データが読み込まれていません。</value>
+  </data>
+  <data name="FormMain_27" xml:space="preserve">
+    <value>古いAPIデータを削除します。\r\n本当によろしいですか？</value>
+  </data>
+  <data name="FormMain_28" xml:space="preserve">
+    <value>削除が完了しました。\r\n</value>
+  </data>
+  <data name="FormMain_29" xml:space="preserve">
+    <value> 個のファイルを削除しました。</value>
+  </data>
+  <data name="FormMain_3" xml:space="preserve">
+    <value> 起動処理が完了しました。</value>
+  </data>
+  <data name="FormMain_30" xml:space="preserve">
+    <value>削除成功</value>
+  </data>
+  <data name="FormMain_31" xml:space="preserve">
+    <value>削除に失敗しました。\r\n</value>
+  </data>
+  <data name="FormMain_32" xml:space="preserve">
+    <value>艦船データが読み込まれていません。</value>
+  </data>
+  <data name="FormMain_33" xml:space="preserve">
+    <value>通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。\r\n</value>
+  </data>
+  <data name="FormMain_34" xml:space="preserve">
+    <value>対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。\r\n</value>
+  </data>
+  <data name="FormMain_35" xml:space="preserve">
+    <value>続行しますか？</value>
+  </data>
+  <data name="FormMain_36" xml:space="preserve">
+    <value>艦船リソースをリネーム</value>
+  </data>
+  <data name="FormMain_37" xml:space="preserve">
+    <value>リネーム処理が完了しました。\r\n{0} 個のアイテムをリネームしました。</value>
+  </data>
+  <data name="FormMain_38" xml:space="preserve">
+    <value>処理完了</value>
+  </data>
+  <data name="FormMain_39" xml:space="preserve">
+    <value>艦船リソースのリネームに失敗しました。</value>
+  </data>
+  <data name="FormMain_4" xml:space="preserve">
+    <value> を終了しますか？</value>
+  </data>
+  <data name="FormMain_40" xml:space="preserve">
+    <value>艦船リソースのリネームに失敗しました。\r\n</value>
+  </data>
+  <data name="FormMain_41" xml:space="preserve">
+    <value>外部ブラウザでオンラインヘルプを開きます。\r\nよろしいですか？</value>
+  </data>
+  <data name="FormMain_42" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="FormMain_43" xml:space="preserve">
+    <value>レイアウト ファイルを開く</value>
+  </data>
+  <data name="FormMain_44" xml:space="preserve">
+    <value>ログインページへ移動します。\r\nよろしいですか？</value>
+  </data>
+  <data name="FormMain_45" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="FormMain_46" xml:space="preserve">
+    <value>移動先の入力</value>
+  </data>
+  <data name="FormMain_47" xml:space="preserve">
+    <value>移動先の URL を入力してください。</value>
+  </data>
+  <data name="FormMain_48" xml:space="preserve">
+    <value>現在: {0}%</value>
+  </data>
+  <data name="FormMain_49" xml:space="preserve">
+    <value>API読み込みに失敗しました。\r\n</value>
+  </data>
+  <data name="FormMain_5" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="FormMain_50" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="FormMain_6" xml:space="preserve">
+    <value> を終了しています…</value>
+  </data>
+  <data name="FormMain_7" xml:space="preserve">
+    <value> 終了処理が完了しました。</value>
+  </data>
+  <data name="FormMain_8" xml:space="preserve">
+    <value>サブウィンドウ レイアウトの復元に失敗しました。</value>
+  </data>
+  <data name="FormMain_9" xml:space="preserve">
+    <value>サブウィンドウ レイアウトの保存に失敗しました。</value>
+  </data>
   <data name="SoftwareInformation_1" xml:space="preserve">
     <value>七四式電子観測儀</value>
   </data>

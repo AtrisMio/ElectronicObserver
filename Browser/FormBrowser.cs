@@ -626,7 +626,7 @@ namespace Browser {
 
 		private void ToolMenu_Other_NavigateToLogInPage_Click( object sender, EventArgs e ) {
 
-            if (MessageBox.Show(LoadResources.getter("Dialog_Navigate"), LoadResources.getter("Dialog_Confirm"),
+            if (MessageBox.Show(LoadResources.getter("Dialog_Login"), LoadResources.getter("Dialog_Confirm"),
 				MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.OK ) {
 

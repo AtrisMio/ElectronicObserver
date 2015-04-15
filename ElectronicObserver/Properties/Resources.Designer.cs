@@ -682,6 +682,456 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   查找类似  を起動しています… 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_1 {
+            get {
+                return ResourceManager.GetString("FormMain_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ウィンドウ レイアウトを復元しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_10 {
+            get {
+                return ResourceManager.GetString("FormMain_10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ウィンドウ レイアウト ファイルは存在しません。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_11 {
+            get {
+                return ResourceManager.GetString("FormMain_11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 レイアウトが初期化されました。\r\n「表示」メニューからお好みのウィンドウを追加してください。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_12 {
+            get {
+                return ResourceManager.GetString("FormMain_12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ウィンドウ レイアウト ファイルが存在しません 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_13 {
+            get {
+                return ResourceManager.GetString("FormMain_13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ウィンドウ レイアウトの復元に失敗しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_14 {
+            get {
+                return ResourceManager.GetString("FormMain_14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ウィンドウ レイアウトを保存しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_15 {
+            get {
+                return ResourceManager.GetString("FormMain_15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ウィンドウ レイアウトの保存に失敗しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_16 {
+            get {
+                return ResourceManager.GetString("FormMain_16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 セーブしていないレコードが失われる可能性があります。\r\nロードしますか？ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_17 {
+            get {
+                return ResourceManager.GetString("FormMain_17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 確認 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_18 {
+            get {
+                return ResourceManager.GetString("FormMain_18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 APIリストをロード 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_19 {
+            get {
+                return ResourceManager.GetString("FormMain_19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  API読み込みに失敗しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_2 {
+            get {
+                return ResourceManager.GetString("FormMain_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 API読み込みに失敗しました。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_20 {
+            get {
+                return ResourceManager.GetString("FormMain_20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 エラー 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_21 {
+            get {
+                return ResourceManager.GetString("FormMain_21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 先に通常の api_start2 を読み込んでください。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_22 {
+            get {
+                return ResourceManager.GetString("FormMain_22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 大変ご迷惑をおかけしております 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_23 {
+            get {
+                return ResourceManager.GetString("FormMain_23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 旧 api_start2 からレコードを構築 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_24 {
+            get {
+                return ResourceManager.GetString("FormMain_24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 艦船データが読み込まれていません。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_25 {
+            get {
+                return ResourceManager.GetString("FormMain_25", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 装備データが読み込まれていません。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_26 {
+            get {
+                return ResourceManager.GetString("FormMain_26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 古いAPIデータを削除します。\r\n本当によろしいですか？ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_27 {
+            get {
+                return ResourceManager.GetString("FormMain_27", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 削除が完了しました。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_28 {
+            get {
+                return ResourceManager.GetString("FormMain_28", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  個のファイルを削除しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_29 {
+            get {
+                return ResourceManager.GetString("FormMain_29", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  起動処理が完了しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_3 {
+            get {
+                return ResourceManager.GetString("FormMain_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 削除成功 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_30 {
+            get {
+                return ResourceManager.GetString("FormMain_30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 削除に失敗しました。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_31 {
+            get {
+                return ResourceManager.GetString("FormMain_31", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 艦船データが読み込まれていません。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_32 {
+            get {
+                return ResourceManager.GetString("FormMain_32", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_33 {
+            get {
+                return ResourceManager.GetString("FormMain_33", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_34 {
+            get {
+                return ResourceManager.GetString("FormMain_34", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 続行しますか？ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_35 {
+            get {
+                return ResourceManager.GetString("FormMain_35", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 艦船リソースをリネーム 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_36 {
+            get {
+                return ResourceManager.GetString("FormMain_36", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 リネーム処理が完了しました。\r\n{0} 個のアイテムをリネームしました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_37 {
+            get {
+                return ResourceManager.GetString("FormMain_37", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 処理完了 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_38 {
+            get {
+                return ResourceManager.GetString("FormMain_38", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 艦船リソースのリネームに失敗しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_39 {
+            get {
+                return ResourceManager.GetString("FormMain_39", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  を終了しますか？ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_4 {
+            get {
+                return ResourceManager.GetString("FormMain_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 艦船リソースのリネームに失敗しました。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_40 {
+            get {
+                return ResourceManager.GetString("FormMain_40", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 外部ブラウザでオンラインヘルプを開きます。\r\nよろしいですか？ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_41 {
+            get {
+                return ResourceManager.GetString("FormMain_41", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ヘルプ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_42 {
+            get {
+                return ResourceManager.GetString("FormMain_42", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 レイアウト ファイルを開く 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_43 {
+            get {
+                return ResourceManager.GetString("FormMain_43", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ログインページへ移動します。\r\nよろしいですか？ 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_44 {
+            get {
+                return ResourceManager.GetString("FormMain_44", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 確認 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_45 {
+            get {
+                return ResourceManager.GetString("FormMain_45", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 移動先の入力 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_46 {
+            get {
+                return ResourceManager.GetString("FormMain_46", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 移動先の URL を入力してください。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_47 {
+            get {
+                return ResourceManager.GetString("FormMain_47", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 現在: {0}% 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_48 {
+            get {
+                return ResourceManager.GetString("FormMain_48", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 API読み込みに失敗しました。\r\n 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_49 {
+            get {
+                return ResourceManager.GetString("FormMain_49", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 確認 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_5 {
+            get {
+                return ResourceManager.GetString("FormMain_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 なし 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_50 {
+            get {
+                return ResourceManager.GetString("FormMain_50", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  を終了しています… 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_6 {
+            get {
+                return ResourceManager.GetString("FormMain_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  終了処理が完了しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_7 {
+            get {
+                return ResourceManager.GetString("FormMain_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 サブウィンドウ レイアウトの復元に失敗しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_8 {
+            get {
+                return ResourceManager.GetString("FormMain_8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 サブウィンドウ レイアウトの保存に失敗しました。 的本地化字符串。
+        /// </summary>
+        internal static string FormMain_9 {
+            get {
+                return ResourceManager.GetString("FormMain_9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 七四式電子観測儀 的本地化字符串。
         /// </summary>
         internal static string SoftwareInformation_1 {
