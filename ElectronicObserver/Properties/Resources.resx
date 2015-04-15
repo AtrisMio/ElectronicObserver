@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configuration_1" xml:space="preserve">
+    <value>をご利用いただきありがとうございます。\r\n設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。\r\nご使用の前に必ずご一読ください。</value>
+  </data>
+  <data name="Configuration_2" xml:space="preserve">
+    <value>初回起動メッセージ</value>
+  </data>
+  <data name="Configuration_Font" xml:space="preserve">
+    <value>Meiryo UI</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_1" xml:space="preserve">
+    <value>装備可能艦種:</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_10" xml:space="preserve">
+    <value>装備図鑑 CSVの出力に失敗しました。\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_11" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_2" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_3" xml:space="preserve">
+    <value>装備図鑑 - </value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_4" xml:space="preserve">
+    <value>装備ID,図鑑番号,装備種,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_5" xml:space="preserve">
+    <value>装備図鑑 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_6" xml:space="preserve">
+    <value>装備図鑑 CSVの出力に失敗しました。\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_7" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_8" xml:space="preserve">
+    <value>装備ID,図鑑番号,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_9" xml:space="preserve">
+    <value>装備図鑑 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterShip_1" xml:space="preserve">
+    <value>陸上基地</value>
+  </data>
+  <data name="DialogAlbumMasterShip_10" xml:space="preserve">
+    <value>装甲 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_11" xml:space="preserve">
+    <value>対潜 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_12" xml:space="preserve">
+    <value>回避 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_13" xml:space="preserve">
+    <value>索敵 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_14" xml:space="preserve">
+    <value>命中 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_15" xml:space="preserve">
+    <value>爆装 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_16" xml:space="preserve">
+    <value>(右クリックで図鑑)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_17" xml:space="preserve">
+    <value>(なし)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_18" xml:space="preserve">
+    <value>艦船図鑑 -</value>
+  </data>
+  <data name="DialogAlbumMasterShip_19" xml:space="preserve">
+    <value>艦船ID,図鑑番号,艦種,艦名,読み,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期,対潜最大,回避初期,回避最大,索敵初期,索敵最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterShip_2" xml:space="preserve">
+    <value>初期値</value>
+  </data>
+  <data name="DialogAlbumMasterShip_20" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="DialogAlbumMasterShip_21" xml:space="preserve">
+    <value>枚</value>
+  </data>
+  <data name="DialogAlbumMasterShip_22" xml:space="preserve">
+    <value>艦船ID,図鑑番号,艦名,読み,艦種,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久最大,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期最小,対潜初期最大,対潜最大,対潜150最小,対潜150最大,回避初期最小,回避初期最大,回避最大,回避150最小,回避150最大,索敵初期最小,索敵初期最大,索敵最大,索敵150最小,索敵150最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterShip_23" xml:space="preserve">
+    <value>艦船図鑑 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterShip_24" xml:space="preserve">
+    <value>艦船図鑑 CSVの出力に失敗しました。\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_25" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="DialogAlbumMasterShip_3" xml:space="preserve">
+    <value>最大値</value>
+  </data>
+  <data name="DialogAlbumMasterShip_4" xml:space="preserve">
+    <value>基本値</value>
+  </data>
+  <data name="DialogAlbumMasterShip_5" xml:space="preserve">
+    <value>装備込</value>
+  </data>
+  <data name="DialogAlbumMasterShip_6" xml:space="preserve">
+    <value>入渠時の消費:\r\nHP1あたり: 鋼 {0:F2} / 燃 {1:F2}\r\n最大: 鋼 {2} / 燃 {3}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_7" xml:space="preserve">
+    <value>火力 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_8" xml:space="preserve">
+    <value>雷装 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_9" xml:space="preserve">
+    <value>対空 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogConfiguration_1" xml:space="preserve">
+    <value>指定されたフォルダは存在しません。</value>
+  </data>
+  <data name="DialogConfiguration_2" xml:space="preserve">
+    <value>艦これに接続してから操作してください。</value>
+  </data>
+  <data name="DialogConfiguration_3" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="DialogConfiguration_4" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトを保存する</value>
+  </data>
+  <data name="DialogConfiguration_5" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。\r\n所定の位置に貼り付けてください。</value>
+  </data>
+  <data name="DialogConfiguration_6" xml:space="preserve">
+    <value>作成完了</value>
+  </data>
+  <data name="DialogConfiguration_7" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトの保存に失敗しました。</value>
+  </data>
+  <data name="DialogConfiguration_8" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトの保存に失敗しました。\r\n</value>
+  </data>
+  <data name="DialogConfiguration_9" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="FleetData_1" xml:space="preserve">
+    <value>所属艦なし</value>
+  </data>
+  <data name="FleetData_10" xml:space="preserve">
+    <value>開始日時 : </value>
+  </data>
+  <data name="FleetData_11" xml:space="preserve">
+    <value>未補給</value>
+  </data>
+  <data name="FleetData_12" xml:space="preserve">
+    <value>燃 : {0}\r\n弾 : {1}\r\nボ : {2} ({3}機)</value>
+  </data>
+  <data name="FleetData_13" xml:space="preserve">
+    <value>疲労 </value>
+  </data>
+  <data name="FleetData_14" xml:space="preserve">
+    <value>回復目安日時: {0}</value>
+  </data>
+  <data name="FleetData_15" xml:space="preserve">
+    <value>戦意高揚！</value>
+  </data>
+  <data name="FleetData_16" xml:space="preserve">
+    <value>最低cond: {0}\r\nあと {1} 回遠征可能</value>
+  </data>
+  <data name="FleetData_17" xml:space="preserve">
+    <value>出撃可能！</value>
+  </data>
+  <data name="FleetData_18" xml:space="preserve">
+    <value>入渠中 </value>
+  </data>
+  <data name="FleetData_19" xml:space="preserve">
+    <value>遠征中 </value>
+  </data>
+  <data name="FleetData_2" xml:space="preserve">
+    <value>入渠中</value>
+  </data>
+  <data name="FleetData_20" xml:space="preserve">
+    <value>疲労 </value>
+  </data>
+  <data name="FleetData_21" xml:space="preserve">
+    <value>泊地修理中 </value>
+  </data>
+  <data name="FleetData_3" xml:space="preserve">
+    <value>完了日時 : </value>
+  </data>
+  <data name="FleetData_4" xml:space="preserve">
+    <value>！！大破進撃中！！</value>
+  </data>
+  <data name="FleetData_5" xml:space="preserve">
+    <value>出撃中</value>
+  </data>
+  <data name="FleetData_6" xml:space="preserve">
+    <value>遠征中</value>
+  </data>
+  <data name="FleetData_7" xml:space="preserve">
+    <value>完了日時 : </value>
+  </data>
+  <data name="FleetData_8" xml:space="preserve">
+    <value>大破艦あり！</value>
+  </data>
+  <data name="FleetData_9" xml:space="preserve">
+    <value>泊地修理中</value>
+  </data>
+  <data name="SoftwareInformation_1" xml:space="preserve">
+    <value>七四式電子観測儀</value>
+  </data>
+  <data name="SoftwareInformation_2" xml:space="preserve">
+    <value>ElectronicObserver</value>
+  </data>
+  <data name="SoftwareInformation_3" xml:space="preserve">
+    <value>一一型改</value>
+  </data>
+  <data name="SoftwareInformation_4" xml:space="preserve">
+    <value>1.1.1</value>
+  </data>
+  <data name="SoftwareInformation_5" xml:space="preserve">
+    <value>新しいバージョンがリリースされています！ : {0}\r\n更新内容 : \r\n{1}\r\nダウンロードページを開きますか？\r\n(キャンセルすると以降表示しません)</value>
+  </data>
+  <data name="SoftwareInformation_6" xml:space="preserve">
+    <value>アップデート情報</value>
+  </data>
+</root>

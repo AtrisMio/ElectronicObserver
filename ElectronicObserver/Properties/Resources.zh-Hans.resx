@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configuration_1" xml:space="preserve">
+    <value>感谢您使用本软件。\r\n设定和使用方法请参照「帮助」→「在线帮助」。\r\n使用之前请一定要读一下。</value>
+  </data>
+  <data name="Configuration_2" xml:space="preserve">
+    <value>第一次启动</value>
+  </data>
+  <data name="Configuration_Font" xml:space="preserve">
+    <value>Microsoft YaHei</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_1" xml:space="preserve">
+    <value>可装备舰种:</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_10" xml:space="preserve">
+    <value>装备图鉴 输出CSV失败。\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_11" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_2" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_3" xml:space="preserve">
+    <value>装备图鉴 - </value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_4" xml:space="preserve">
+    <value>装备D,图鉴编号,装备种类,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴文章,版本号</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_5" xml:space="preserve">
+    <value>装备图鉴 输出CSV失败。</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_6" xml:space="preserve">
+    <value>装备图鉴 输出CSV失败。\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_7" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_8" xml:space="preserve">
+    <value>装备D,图鉴编号,装备种类,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴文章,版本号</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_9" xml:space="preserve">
+    <value>装备图鉴 输出CSV失败。</value>
+  </data>
+  <data name="DialogAlbumMasterShip_1" xml:space="preserve">
+    <value>陆上基地</value>
+  </data>
+  <data name="DialogAlbumMasterShip_10" xml:space="preserve">
+    <value>装甲 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_11" xml:space="preserve">
+    <value>对潜 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_12" xml:space="preserve">
+    <value>回避 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_13" xml:space="preserve">
+    <value>索敌 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_14" xml:space="preserve">
+    <value>命中 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_15" xml:space="preserve">
+    <value>爆装 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_16" xml:space="preserve">
+    <value>(右键单击图鉴)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_17" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_18" xml:space="preserve">
+    <value>舰船图鉴 -</value>
+  </data>
+  <data name="DialogAlbumMasterShip_19" xml:space="preserve">
+    <value>舰船ID,图鉴编号,舰种,舰名,读作,改装前,改装后,改装Lv,改装弹药,改装钢材,改造设计图,初期耐久,婚后耐久,初期火力,最大火力,初期雷装,最大雷装,初期对空,最大对空,初期装甲,最大装甲,初期对潜,最大对潜,初期回避,最大回避,初期索敌,最大索敌,初期运气,最大运气,速力,射程,稀有,装备槽数,搭载机数1,搭载机数2,搭载机数3,搭载机数4,搭载机数5,初期装备1,初期装备2,初期装备3,初期装备4,初期装备5,建造时间,解体燃料,解体弹药,解体钢材,解体铝土,改修火力,改修雷装,改修对空,改修装甲,下降文章(暂),图鉴文章,搭载燃料,搭载弹药,语音,资源文件名,版本</value>
+  </data>
+  <data name="DialogAlbumMasterShip_2" xml:space="preserve">
+    <value>初期值</value>
+  </data>
+  <data name="DialogAlbumMasterShip_20" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DialogAlbumMasterShip_21" xml:space="preserve">
+    <value>枚</value>
+  </data>
+  <data name="DialogAlbumMasterShip_22" xml:space="preserve">
+    <value>舰船ID,图鉴编号,舰名,读作,舰种,改装前,改装后,改装Lv,改装弹药,改装钢材,改装设计图,初期耐久,最大耐久,婚后耐久,初期火力,最大火力,初期雷装,最大雷装,初期对空,最大对空,初期装甲,最大装甲,初期对潜最小值,初期对潜最大值,对潜最大,对潜150最小,对潜150最大,初期回避最小值,初期回避最大值,最大回避,回避150最小,回避150最大,初期索敌最小值,初期索敌最大值,最大索敌,索敌150最大,索敌150最大,初期运,最大运,速力,射程,稀有,装备槽数,搭载机数1,搭载机数2,搭载机数3,搭载机数4,搭载机数5,初期装备1,初期装备2,初期装备3,初期装备4,初期装备5,建造时间,解体燃料,解体弹药,解体钢材,解体铝土,改修火力,改修雷装,改修对空,改修装甲,下降文章(暂),图鉴文章,搭载燃料,搭载弹药,语音,资源名,版本号</value>
+  </data>
+  <data name="DialogAlbumMasterShip_23" xml:space="preserve">
+    <value>舰船图鉴 输出CSV失败。</value>
+  </data>
+  <data name="DialogAlbumMasterShip_24" xml:space="preserve">
+    <value>舰船图鉴 输出CSV失败。\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_25" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DialogAlbumMasterShip_3" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="DialogAlbumMasterShip_4" xml:space="preserve">
+    <value>基本值</value>
+  </data>
+  <data name="DialogAlbumMasterShip_5" xml:space="preserve">
+    <value>包括装备后</value>
+  </data>
+  <data name="DialogAlbumMasterShip_6" xml:space="preserve">
+    <value>入渠时会消耗:\r\n每HP1: 钢 {0:F2} / 燃 {1:F2}\r\n最大: 钢 {2} / 燃 {3}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_7" xml:space="preserve">
+    <value>火力 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_8" xml:space="preserve">
+    <value>雷装 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogAlbumMasterShip_9" xml:space="preserve">
+    <value>对空 {0}{1}\r\n</value>
+  </data>
+  <data name="DialogConfiguration_1" xml:space="preserve">
+    <value>指定文件夹不存在。</value>
+  </data>
+  <data name="DialogConfiguration_2" xml:space="preserve">
+    <value>请连接上艦これ后在进行操作。</value>
+  </data>
+  <data name="DialogConfiguration_3" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DialogConfiguration_4" xml:space="preserve">
+    <value>保存自动配置代理脚本</value>
+  </data>
+  <data name="DialogConfiguration_5" xml:space="preserve">
+    <value>保存自动配置代理脚本、本程序将复制设置用的URL到剪贴板。\r\n请粘贴到指定位置。</value>
+  </data>
+  <data name="DialogConfiguration_6" xml:space="preserve">
+    <value>创建完成</value>
+  </data>
+  <data name="DialogConfiguration_7" xml:space="preserve">
+    <value>没能保存自动代理配置脚本。</value>
+  </data>
+  <data name="DialogConfiguration_8" xml:space="preserve">
+    <value>没能保存自动代理配置脚本。\r\n</value>
+  </data>
+  <data name="DialogConfiguration_9" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FleetData_1" xml:space="preserve">
+    <value>没有所属舰队</value>
+  </data>
+  <data name="FleetData_10" xml:space="preserve">
+    <value>开始时间 : </value>
+  </data>
+  <data name="FleetData_111" xml:space="preserve">
+    <value>未补给</value>
+  </data>
+  <data name="FleetData_12" xml:space="preserve">
+    <value>燃 : {0}\r\n弹 : {1}\r\n铝 : {2} ({3}机)</value>
+  </data>
+  <data name="FleetData_13" xml:space="preserve">
+    <value>疲劳</value>
+  </data>
+  <data name="FleetData_14" xml:space="preserve">
+    <value>回复大致时间: {0}</value>
+  </data>
+  <data name="FleetData_15" xml:space="preserve">
+    <value>战意高扬！</value>
+  </data>
+  <data name="FleetData_16" xml:space="preserve">
+    <value>最低cond: {0}\r\n还可进行 {1} 次远征</value>
+  </data>
+  <data name="FleetData_17" xml:space="preserve">
+    <value>可以出击！</value>
+  </data>
+  <data name="FleetData_18" xml:space="preserve">
+    <value>入渠中 </value>
+  </data>
+  <data name="FleetData_19" xml:space="preserve">
+    <value>远征中 </value>
+  </data>
+  <data name="FleetData_2" xml:space="preserve">
+    <value>入渠中 </value>
+  </data>
+  <data name="FleetData_20" xml:space="preserve">
+    <value>疲劳 </value>
+  </data>
+  <data name="FleetData_21" xml:space="preserve">
+    <value>停泊修理中 </value>
+  </data>
+  <data name="FleetData_3" xml:space="preserve">
+    <value>完成时间 : </value>
+  </data>
+  <data name="FleetData_4" xml:space="preserve">
+    <value>！！大破进击中！！</value>
+  </data>
+  <data name="FleetData_5" xml:space="preserve">
+    <value>出击中 </value>
+  </data>
+  <data name="FleetData_6" xml:space="preserve">
+    <value>远征中 </value>
+  </data>
+  <data name="FleetData_7" xml:space="preserve">
+    <value>完成时间 : </value>
+  </data>
+  <data name="FleetData_8" xml:space="preserve">
+    <value>有舰船大破！</value>
+  </data>
+  <data name="FleetData_9" xml:space="preserve">
+    <value>停泊修理中</value>
+  </data>
+  <data name="SoftwareInformation_1" xml:space="preserve">
+    <value>七四式电子观测仪</value>
+  </data>
+  <data name="SoftwareInformation_2" xml:space="preserve">
+    <value>ElectronicObserver</value>
+  </data>
+  <data name="SoftwareInformation_3" xml:space="preserve">
+    <value> 一一型改</value>
+  </data>
+  <data name="SoftwareInformation_4" xml:space="preserve">
+    <value>1.1.1</value>
+  </data>
+  <data name="SoftwareInformation_5" xml:space="preserve">
+    <value>新版本已经发布！ : {0}\r\n更新内容 : \r\n{1}\r\n打开下载页面吗？\r\n(取消后则不再显示)</value>
+  </data>
+  <data name="SoftwareInformation_6" xml:space="preserve">
+    <value>更新信息</value>
+  </data>
+</root>
