@@ -147,7 +147,7 @@ namespace ElectronicObserver.Data {
 
 					_escapedShipList.Clear();
 					if ( IsInSortie ) {
-						Utility.Logger.Add( 2, string.Format( "#{0}「{1}」が帰投しました。", FleetID, Name ) );
+                        Utility.Logger.Add(2, string.Format(LoadResources.getter("FleetData_22"), FleetID, Name));
 					}
 					IsInSortie = false;
 
@@ -337,7 +337,7 @@ namespace ElectronicObserver.Data {
 			else
 				ConditionTime = null;
 
-			//Utility.Logger.Add( 1, string.Format( "Fleet #{0}: 疲労 再設定 {1:D2}:00", FleetID, minute ) );
+            //Utility.Logger.Add(1, string.Format(LoadResources.getter("FleetData_23"), FleetID, minute));
 		}
 
 		private void ShortenConditionTimer() {
@@ -358,7 +358,7 @@ namespace ElectronicObserver.Data {
 			/*/
 			{
 				TimeSpan ts = ( ConditionTime ?? DateTime.Now ) - DateTime.Now;
-				Utility.Logger.Add( 1, string.Format( "Fleet #{0}: 疲労 短縮 {1:D2}:00 => {2:D2}:{3:D2}", FleetID, minute, (int)ts.TotalMinutes, (int)ts.Seconds ) );
+                Utility.Logger.Add(1, string.Format(LoadResources.getter("FleetData_24"), FleetID, minute, (int)ts.TotalMinutes, (int)ts.Seconds));
 			}
 			//*/
 		}

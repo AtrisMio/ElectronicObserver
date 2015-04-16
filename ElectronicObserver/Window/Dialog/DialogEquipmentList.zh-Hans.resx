@@ -121,7 +121,7 @@
     <value>装备一览</value>
   </data>
   <data name="DetailView_CountAll.HeaderText" xml:space="preserve">
-    <value>所有个数</value>
+    <value>共有</value>
   </data>
   <data name="DetailView_CountRemain.HeaderText" xml:space="preserve">
     <value>剩余个数</value>
@@ -133,7 +133,7 @@
     <value>改修</value>
   </data>
   <data name="EquipmentView_CountAll.HeaderText" xml:space="preserve">
-    <value>所有个数</value>
+    <value>共有</value>
   </data>
   <data name="EquipmentView_CountRemain.HeaderText" xml:space="preserve">
     <value>剩余个数</value>

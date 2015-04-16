@@ -82,14 +82,14 @@ namespace ElectronicObserver.Utility {
 
 			if ( e.Error != null ) {
 
-				Utility.ErrorReporter.SendErrorReport( e.Error, "アップデート情報の取得に失敗しました。" );
+                Utility.ErrorReporter.SendErrorReport(e.Error, LoadResources.getter("SoftwareInformation_7"));
 				return;
 
 			}
 
 			if ( e.Result.StartsWith( "<!DOCTYPE html>" ) ) {
 
-				Utility.Logger.Add( 3, "アップデート情報の URI が無効です。" );
+                Utility.Logger.Add(3, LoadResources.getter("SoftwareInformation_8"));
 				return;
 
 			}
@@ -105,7 +105,7 @@ namespace ElectronicObserver.Utility {
 
 					if ( UpdateTime < date ) {
 
-						Utility.Logger.Add( 3, "新しいバージョンがリリースされています！ : " + version );
+                        Utility.Logger.Add(3, LoadResources.getter("SoftwareInformation_9") + version);
 
 						var result = System.Windows.Forms.MessageBox.Show(
                             string.Format(LoadResources.getter("SoftwareInformation_5"),
@@ -126,7 +126,7 @@ namespace ElectronicObserver.Utility {
 
 					} else {
 
-						Utility.Logger.Add( 1, "お使いのバージョンは最新です。" );
+                        Utility.Logger.Add(1, LoadResources.getter("SoftwareInformation_10"));
 
 					}
 
@@ -134,7 +134,7 @@ namespace ElectronicObserver.Utility {
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "アップデート情報の処理に失敗しました。" );
+                Utility.ErrorReporter.SendErrorReport(ex, LoadResources.getter("SoftwareInformation_11"));
 			}
 			
 		}

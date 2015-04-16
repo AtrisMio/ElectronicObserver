@@ -148,7 +148,7 @@
     <value>新建编组(&amp;C)...</value>
   </data>
   <data name="MenuMember_CSVOutput.Text" xml:space="preserve">
-    <value>CSV出力(&amp;O)...</value>
+    <value>输出CSV(&amp;O)...</value>
   </data>
   <data name="MenuMember_Delete.Text" xml:space="preserve">
     <value>删除(&amp;D)</value>
@@ -160,7 +160,7 @@
     <value>对空</value>
   </data>
   <data name="ShipView_AARemain.HeaderText" xml:space="preserve">
-    <value>对公改修</value>
+    <value>对空改修</value>
   </data>
   <data name="ShipView_Ammo.HeaderText" xml:space="preserve">
     <value>弹药</value>
@@ -223,13 +223,13 @@
     <value>舰名</value>
   </data>
   <data name="ShipView_NextRemodel.HeaderText" xml:space="preserve">
-    <value>改装まで(暂)</value>
+    <value>改装完成</value>
   </data>
   <data name="ShipView_RepairTime.HeaderText" xml:space="preserve">
     <value>入渠</value>
   </data>
   <data name="ShipView_SallyArea.HeaderText" xml:space="preserve">
-    <value>出撃先(暂)</value>
+    <value>攻击顺序(暂)</value>
   </data>
   <data name="ShipView_ShipType.HeaderText" xml:space="preserve">
     <value>舰种</value>

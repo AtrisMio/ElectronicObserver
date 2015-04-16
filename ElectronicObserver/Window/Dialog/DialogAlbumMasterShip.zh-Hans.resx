@@ -142,7 +142,7 @@
     <value>连击</value>
   </data>
   <data name="ParameterLevel.ToolTip" xml:space="preserve">
-    <value>レベルを指定すると予測値が表示されます。(暂)</value>
+    <value>只显示指定等级的预测值</value>
   </data>
   <data name="RemodelAfter.Text" xml:space="preserve">
     <value>改装后</value>
