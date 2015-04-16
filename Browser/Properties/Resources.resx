@@ -147,6 +147,12 @@
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これが読み込まれていないため、スクリーンショットを撮ることはできません。</value>
   </data>
+  <data name="Program_1" xml:space="preserve">
+    <value>これは七四式電子観測儀のサブプログラムであり、単体では起動できません。\r\n本体から起動してください。</value>
+  </data>
+  <data name="Program_2" xml:space="preserve">
+    <value>情報</value>
+  </data>
   <data name="SaveScreenShot_Failed" xml:space="preserve">
     <value>スクリーンショットの保存時にエラーが発生しました。</value>
   </data>

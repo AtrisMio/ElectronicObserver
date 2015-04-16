@@ -149,6 +149,13 @@
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これ并未被装载，所以您无法使用截图功能。</value>
   </data>
+  <data name="Program_1" xml:space="preserve">
+    <value>本程序时七四式电子观测仪的子程序，不能单独启动。
+请从主程序中启动。</value>
+  </data>
+  <data name="Program_2" xml:space="preserve">
+    <value>信息</value>
+  </data>
   <data name="SaveScreenShot_Failed" xml:space="preserve">
     <value>保存截图时发生错误。</value>
   </data>

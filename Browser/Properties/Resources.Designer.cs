@@ -151,6 +151,24 @@ namespace Browser.Properties {
         }
         
         /// <summary>
+        ///   查找类似 これは七四式電子観測儀のサブプログラムであり、単体では起動できません。\r\n本体から起動してください。 的本地化字符串。
+        /// </summary>
+        internal static string Program_1 {
+            get {
+                return ResourceManager.GetString("Program_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 情報 的本地化字符串。
+        /// </summary>
+        internal static string Program_2 {
+            get {
+                return ResourceManager.GetString("Program_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 スクリーンショットの保存時にエラーが発生しました。 的本地化字符串。
         /// </summary>
         internal static string SaveScreenShot_Failed {
